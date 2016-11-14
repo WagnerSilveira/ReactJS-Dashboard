@@ -1,0 +1,52 @@
+
+
+.WigetPanel{
+  padding: 0;
+  position: relative;
+}
+.WidgetPanel.panel.panel-default > .panel-body{
+  padding: 0px;
+}
+
+.Blue {background: #30a5ff;}
+.Orange{background:#ffb53e;}
+.Teal {background:#1ebfae;}
+.Red{background:#f9243f;}
+
+.WidgetIcon{
+  font-size: 43px;
+  text-align: center;
+
+  color: white;
+  height: 90px;
+  padding-top: 10px;
+
+}
+
+.WidgetData{
+  padding: 24px;
+  height: 80px;
+  color: #999;
+  font-weight: 300;
+  background: #fff;
+  line-height: 1.6em;
+
+}
+
+.WidgetValue{
+  color: #5f6468;
+  font-size: 2em;
+  text-align: left;
+}
+
+@media (max-width: 768px){
+  .WidgetValue {
+      width: 100%;
+      margin: 0;
+      text-align: center;
+
+  }
+  .WidgetLabel {
+    text-align: center;
+  }
+}

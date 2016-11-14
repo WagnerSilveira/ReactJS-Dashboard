@@ -1,0 +1,35 @@
+body{
+  background-color: #f1f4f7;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #5f6468;
+}
+
+.remove-padding{
+ padding: 0;
+ margin: 0;
+}
+
+.page-header{
+  border-bottom:none;
+}
+.panel-default .panel-heading{
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  color: #5f6468;
+}
+.panel-heading{
+  height: 66px;
+  letter-spacing: 0.026em;
+  line-height: 45px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.btn-success,
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active{
+  background-color: #8ad919;
+  border-color: #8ad919;
+}

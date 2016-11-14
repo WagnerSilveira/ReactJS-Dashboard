@@ -1,0 +1,39 @@
+#chat_container ul{
+  list-style: none;
+  margin: -15px;
+  padding: 15px;
+}
+#chat_container ul li{
+    margin-bottom: 10px;
+    padding: 15px 5px;
+    border-bottom: 1px solid #eee;
+}
+#chat_container .panel-body{
+  overflow-y: scroll;
+	height: 300px;
+}
+.UserPicture{
+  width: 80px;
+  height: 80px;
+}
+ .right .MessageBody{
+  margin-right: 100px;
+}
+.left .MessageBody {
+  margin-left: 100px;
+}
+.MessageBody small{
+  color: #9fadbb;
+   margin-left: 4px;
+ }
+.MessageBody p{
+  margin: 0;
+  color: #777;
+}
+
+@media (max-width: 320px){
+  .MessageBody small{
+    margin-left: 0px;
+    display: block;
+  }
+}
