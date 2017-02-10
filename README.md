@@ -1,5 +1,5 @@
 # ReactJS-Dashboard
-ReactJS Dashboard made for a job application in Web Development
+ReactJS Dashboard made for a job interview in Web Development
 
 ![alt tag](https://raw.githubusercontent.com/WagnerSilveira/ReactJS-Dashboard/master/screen1.png)
 
